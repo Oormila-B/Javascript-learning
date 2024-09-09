@@ -48,12 +48,12 @@ const  year= 1234 ; value cannot changed
  //Basic Operators
  const now = 2024
  const ageOormila = now - 2002;
- const ageArun = now - 2002;
- console.log(ageOormila, ageArun);
- console.log(ageOormila*2,ageArun/10,2**3);
+ const ageYokesh = now - 2002;
+ console.log(ageOormila, ageYokesh);
+ console.log(ageOormila*2,ageYokesh/10,2**3);
  //2**3 means 2 to the power of 3=2*2*2
  const firstName= "Oormila";
- const lastName="Arun";
+ const lastName="Yokesh";
  console.log(firstName + " " +lastName);
 
 //Assignment operators
@@ -66,7 +66,7 @@ x--; //x=x-1//99
 console.log(x);
 
 //comparison operators
-console.log(ageOormila>ageArun);//true
+console.log(ageOormila>ageYokesh);//true
 console.log(ageOormila>=18);//true
 const isFullAge = ageOormila>=18;
 console.log(now - 2002 > now- 2014);*/
@@ -74,14 +74,14 @@ console.log(now - 2002 > now- 2014);*/
 /*//Operator procedence
 const now = 2037;
 const ageOormila= now - 1991;
-const ageArun = now - 2018;
+const ageYokesh = now - 2018;
 console.log(now-1991> now-2018);// to know all the procedence refer MDN reference
 console.log(25-10-5);//left to right
 let x,y;
 x=y=25-10-5;
 console.log(x,y);//10.,10
-const averageAge= ageOormila + ageArun /2
-console.log(ageOormila,ageArun,averageAge);
+const averageAge= ageOormila + ageYokesh /2
+console.log(ageOormila,ageYokesh,averageAge);
 */
 
 /*//Strings and Template literals 
