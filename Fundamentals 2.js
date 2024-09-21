@@ -258,5 +258,218 @@ const oormi={
   friends:['oormila','yokesh']
 }*/
 
+const oormi={
+  firstName: 'Oormila',
+  lastName: 'Bala'
+  age: 2024-2002, // key : property
+  job: 'Developer',
+  friends:['oormila','yokesh']
+}*/
+
+//Dot  vs. Bracket Notation
+
+/*const oormi={
+  firstName: 'Oormila',
+  lastName: 'Bala'
+ // key : property
+  
+
+};
+console.log(oormi);
+
+console.log(oormi.lastName);//dot notation
+console.log(oormi['lastname']);//bracket notation
+
+const nameKey = 'Name';//create new object
+console.log(oormi['first' + nameKey]);//oormila
+console.log(oormi['lats' + nameKey]);//bala
+
+const interestedIn = prompt ('what do you want to know about oormi? choose between firstName,lastName,age,job, and friends');
+console.log(oormi[interestedIn]);// notification window
+
+//how to retrive object
+
+oormi.location= 'Madurai'; //add this key in oormi object
+jonas['instagram']= '@oormila';
+console.log(oormi);*/
+/*
+const oormi = {
+  firstName: 'Oormila',
+  latsNmae: 'Bala',
+  birthYear: 2002,
+  job: 'developer',
+  friends: ['Oormila' , ' pavi'],
+  hasDriversLicense : true,
+
+
+//calcAge: function(birthYear){ // properties calles as methods
+  //  return 2024 - birthYear;
+//}
+
+//this keyword
+
+calcAge: function( ){ // properties calles as methods
+  return 2024 - this.birthYear;
+},
+ getSummary: function(){
+  return `${this.firstName} is a ${this.calcAge()} years old ${oormi.job}, and he has ${this.hasDriversLicense? 'a' : 'no'} drivers license`
+ }
+
+};
+
+console.log(oormi.calcAge());//22
+//console.log(oormi['calcAge'](2002));//22
+
+console.log(oormi.getSummary());*/
+
+//challenge 3
+
+/*const mark = {
+  fullName: 'Mark Miller',
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+const john = {
+  fullName: 'John Smith',
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+
+// "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+
+if (mark.bmi > john.bmi) {
+  console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`)
+} else if (john.bmi > mark.bmi) {
+  console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`)
+}*/
+
+
+//Iteration:the for loop
+/*
+for (let rep = 1; rep <= 10; rep++)
+{
+    console.log(`Liting weights reptition ${rep}')
+  } //for lopp keeps running while condition in TRUE*/
+
+ /* const oormi = [
+     'oormila',
+     'Bala',
+     2024 -2002,
+     'developer',
+     ['oormila','prabha','pavi'],
+     true
+  ];
+
+  for (let i=0; i<6;i++){
+    console.log(oormi[i]);
+  }*/
+
+  /*const oormi = [
+      'oormila',
+      'Bala',
+      2024 -2002,
+      'developer',
+      ['oormila','prabha','pavi'],
+      true
+   ];
+ 
+   for (let i=0; i<oormi.length;i++){
+     console.log(oormi[i], typeof oormi[i]);
+   }*/
+
+   /*  const oormi = [
+      'oormila',
+      'Bala',
+      2024 -2002,
+      'developer',
+      ['oormila','prabha','pavi'],
+      true
+   ];
+   const types =[];
+ 
+   for (let i=0; i<oormi.length;i++){
+    //reading from oormi array
+     console.log(oormi[i], typeof oormi[i]);
+
+     //filling types array
+     //types[i] = typeof oormi[i];
+     types.push(typeof oormi[i]);
+   }
+    console.log(types);
+/* const years =[2003,2007,2009,2015];
+    const ages =[];
+    for(let i=0; i<years.length; i++){
+      ages.push(2024-years[i]);
+    }
+    console.log(ages);*/
+
+    //continue and break
+//only contiinue if condition is correct
+//break means stop when condition not true
+    /*for (let i=0; i<oormi.length;i++){
+       if (typeof  oormi[i]!== 'string')break;
+       console.log(oormi[i], typeof oormi[i]);
+    }*/
+
+//Looping Backwards and Loops in Loops
+/*const oormi = [
+  'oormila',
+  'Bala',
+  2024 -2002,
+  'developer',
+  ['oormila','prabha','pavi'],
+ 
+];
+//0,1,2,...3
+//4,3,...0
+  for (let i=oormi.length-1; i>=0;i--){
+    console.log(oormi[i]);
+  }  
+//loops in loop
+  for (let excercise=1; excercise<4; excercise++){
+    console.log(`----oormila excercise ${excercise}`);
+
+    for (let  rep = 1; rep<4; rep++){
+      console.log(`----oormila excercise ${rep}`)
+
+  }
+};*/
+
+//The while loop
+/*
+for (let rep =1; rep<=10; rep++){
+  console.log(`lifting weights repition ${rep}`);
+}
+let rep=1;
+while (rep<=10){
+  console.log(`oormila ${rep}`);
+  rep ++;
+}*/
+
+/*
+let dice = Math.trunc(Math.random() *6) +1;
+ 
+while(dice !==6){
+
+console.log(`uou rolled a ${dice}`);
+dice = Math.trunc(Math.random() *6)+1;
+if(dice === 6) console.log('Loop is about to end...');
+}'*/
+
+
 
 
