@@ -7,7 +7,7 @@ if(js==="amazing") alert("JavaScript is FUN1");
 /*Values and Variables*/
 /*value is the smallest unit of infromation in js , We can store value as a variable so we can use them over and over again*/
 /*let firstName="Oormila"; //Variable name should be in camel case
-console.log(firstName);
+console.log(firstName);*/
 
 //WRONG
 //let 3years=3;
